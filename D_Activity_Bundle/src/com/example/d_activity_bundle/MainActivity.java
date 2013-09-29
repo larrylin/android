@@ -13,7 +13,7 @@ import android.widget.*;
 public class MainActivity extends Activity {
 
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
+	protected void onCreate(Bundle savedInstanceState) { 
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		Button bn = (Button)findViewById(R.id.bn);
