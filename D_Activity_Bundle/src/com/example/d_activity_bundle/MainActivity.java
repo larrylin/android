@@ -14,6 +14,7 @@ public class MainActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) { 
+		//使用Bundle传递数据
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		Button bn = (Button)findViewById(R.id.bn);
