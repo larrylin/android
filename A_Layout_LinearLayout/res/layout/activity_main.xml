@@ -1,0 +1,28 @@
+<!-- 线性布局 线性布局会将容器里的组件一个挨着一个地排列起来。LinearLayout不仅可以控制各组件横向排列，通过设置android:orientation属性控制也可以控制各组件纵向排列 -->
+
+<!-- android:orientation 设置组件是纵向还是横向排列 -->
+<!-- android:gravity 设置布局中的组件对齐方式 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"> 
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test button1"
+        />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test button2"
+        />
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        />
+</LinearLayout>

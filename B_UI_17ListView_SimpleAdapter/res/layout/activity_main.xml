@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="left"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ListView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mylist"/>
+        <!-- 定义一个imageview，用于作为列表项的一部分 -->
+    <LinearLayout
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:gravity="center_vertical"
+       android:layout_width="wrap_content">
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/header"/>
+    <!-- 定义一个textview，用于作为列表项的一部分 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:id="@+id/name"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="left"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content">
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="16dp"
+	        android:gravity="center"
+	        android:paddingLeft="10dp"
+	        android:id="@+id/title"/>
+    </LinearLayout>
+</LinearLayout>
